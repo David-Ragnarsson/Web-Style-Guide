@@ -23,7 +23,7 @@ a {
 /* ============================================= */
 
 .headline-primary {
-  color: #58e1c1;
+  color: $Jagger;
   margin-left: 10px;
 }
 
@@ -45,4 +45,30 @@ a {
   padding-left: 20px;
   border-left: 8px solid #58e1c1;
   border-radius: 5px;
+}
+
+h1    {
+  font-size:2em;
+  margin:0.67em 0
+}
+
+pre{
+  font-family:monospace, 
+  monospace;font-size:1em
+}
+
+strong{
+  font-weight:bolder
+}
+
+code,kbd,samp{
+  font-family:monospace, 
+  monospace;font-size:1em
+}
+
+sub,sup{
+  font-size:75%;
+  line-height:0;
+  position:relative;
+  vertical-align:baseline
 }
